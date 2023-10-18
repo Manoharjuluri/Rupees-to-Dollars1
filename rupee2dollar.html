@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    rs.<input type="text" id="1" placeholder="enter the amount here">
+    <button onclick="demo()">change</button>
+    <h3 id="2"></h3>
+    <script>
+        function demo(){
+        let val=document.getElementById('1').value;
+        let val2=Math.round(val/82)
+        document.getElementById('2').innerHTML="$" + val2}
+    </script>
+</body>
+</html> 
